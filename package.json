@@ -1,0 +1,16 @@
+{
+  "name": "Ejercicio04pdf",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha ejercicio.spec.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "mocha": "^3.5.3",
+    "moment": "^2.29.1",
+    "should": "^13.2.3"
+  }
+}
