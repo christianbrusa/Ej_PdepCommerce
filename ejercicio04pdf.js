@@ -80,6 +80,7 @@ function productoCorriente(producto){
 
 /*10) productoXL: Dado un producto, conseguir su versión XL. Esta se consigue
 agregando ‘XL’ al final del nombre.*/
+//function String productoXL(String producto){
 function productoXL(producto){
   return producto+" XL";
 }
