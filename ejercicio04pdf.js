@@ -87,6 +87,7 @@ function productoXL(producto){
 
 /*11) versionBarata: Dado el nombre de un producto conseguir su versión barata. La
 misma es el producto descodiciado y con su nombre dado vuelta.*/
+//function String versionBarata(String producto){
 function versionBarata(producto){
   let nombreDescodiciado = descodiciarProducto(producto);
   return nombreDescodiciado.split('').reverse().join('');
