@@ -42,6 +42,7 @@ function entregaSencilla(dia){
 codiciado. Para esto le vamos a sacar las últimas letras hasta que la cantidad de
 letras en el nombre quede igual a 10 (ó menor a 10 en productos con nombres
 cortos)*/
+//function String descodiciarProducto(String producto){
 function descodiciarProducto(producto){
   return producto.substring(0,10);
 }
