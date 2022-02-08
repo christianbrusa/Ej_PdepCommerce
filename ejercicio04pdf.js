@@ -5,6 +5,7 @@ const moment = require('moment');
 envío calcular el precio total. Para eso, hay que calcular el precio unitario con
 descuento y multiplicarlo por la cantidad. ¡No te olvides de agregar el precio del
 envío!*/
+//function Number precioTotal(Number precio,Number cantidad,Number descuento,Number costoEnvio){
 function precioTotal(precio,cantidad,descuento,costoEnvio){
   let precioConDescuento = aplicarDescuento(precio,descuento) * cantidad;
   return precioConDescuento + costoEnvio;
