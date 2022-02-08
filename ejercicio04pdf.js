@@ -49,6 +49,7 @@ function descodiciarProducto(producto){
 
 /*6) productoDeLujo: Dado el nombre de un producto, saber si es de lujo. Un producto
 es de lujo cuando contiene una “x” o “z” en su nombre.*/
+//function Boolean productoDeLujo(String producto){
 function productoDeLujo(producto){
   /*indexOf() retorna el primer índice en el que se puede encontrar un elemento dado en el array, ó retorna -1 si el elemento no esta presente.*/
   return producto.includes("x") || producto.includes("z") || producto.includes("X") || producto.includes("Z");
