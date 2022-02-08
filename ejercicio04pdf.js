@@ -13,6 +13,7 @@ function precioTotal(precio,cantidad,descuento,costoEnvio){
 
 /*2) productoDeElite: Un producto es de elite si es de lujo, codiciado y no es un
 producto corriente.*/
+//function Boolean productoDeElite(String producto){
 function productoDeElite(producto){
   return (productoDeLujo(producto) && productoCodiciado(producto) && !productoCorriente(producto));
 }
