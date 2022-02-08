@@ -20,6 +20,7 @@ function productoDeElite(producto){
 
 /*3) aplicarDescuento: Dado un precio y un descuento, obtener el precio final con el
 descuento aplicado.*/
+//function Number aplicarDescuento(Number precio,Number descuento){
 function aplicarDescuento(precio,descuento){
   let porcentajeDescuento = (precio * descuento)/100;
   return precio - porcentajeDescuento;
