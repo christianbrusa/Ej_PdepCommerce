@@ -72,6 +72,7 @@ function productoCodiciado(producto){
 
 /*9) productoCorriente: Dado el nombre de un producto, saber si es un producto
 corriente. Un producto es corriente si la primera letra de su nombre es una vocal.*/
+//function Boolean productoCorriente(String producto){
 function productoCorriente(producto){
   let vocales = ("aeiouAEIOU");
   return vocales.indexOf(producto[0]) !== -1;
