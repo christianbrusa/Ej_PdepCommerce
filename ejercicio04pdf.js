@@ -29,6 +29,7 @@ function aplicarDescuento(precio,descuento){
 /*4) entregaSencilla: Una entrega es sencilla, si se hace en un día sencillo. Los días
 sencillos son lo que tienen una cantidad de letras par en el nombre. Ejemplo de un
 día: “20 de Abril de 2020”.*/
+//function Boolean entregaSencilla(String dia){
 function entregaSencilla(dia){
   //Cambiamos de momentjs "en" a "es-mx".
   moment.locale("es-mx");
