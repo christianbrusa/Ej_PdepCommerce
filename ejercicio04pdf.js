@@ -57,6 +57,7 @@ function productoDeLujo(producto){
 
 /*7) aplicarCostoDeEnvio: Dado un precio y un costo de envío, obtener el precio final
 una vez sumado el costo de envío.*/
+//function Number aplicarCostoDeEnvio(Number precio, Number costoEnvio){
 function aplicarCostoDeEnvio(precio,costoEnvio){
   return precio + costoEnvio;
 }
