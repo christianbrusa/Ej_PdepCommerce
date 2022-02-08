@@ -65,6 +65,7 @@ function aplicarCostoDeEnvio(precio,costoEnvio){
 /*8) productoCodiciado: Dado el nombre de un producto, saber si es un producto
 codiciado. Un producto es codiciado cuando la cantidad de letras en su nombre es
 mayor a 10.*/
+//function Boolean productoCodiciado(String producto){
 function productoCodiciado(producto){
   return producto.length > 10;
 }
